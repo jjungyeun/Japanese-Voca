@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center_vertical"
+tools:context=".SelectQuizActivity"
+android:padding="20dp"
+android:background="@color/theme_bg_yellow">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Quiz 선택"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="20dp"/>
+
+<android.widget.Button
+    android:id="@+id/btn_quiz_recommended"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="추천 20개"
+    android:background="@drawable/shape_round_button_white"
+    android:textSize="16sp"
+    android:layout_margin="10dp"/>
+
+<android.widget.Button
+    android:id="@+id/btn_quiz_random"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="랜덤 20개"
+    android:background="@drawable/shape_round_button_white"
+    android:textSize="16sp"
+    android:layout_margin="10dp"/>
+
+<android.widget.Button
+    android:id="@+id/btn_quiz_all"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="전체 (N개)"
+    android:background="@drawable/shape_round_button_white"
+    android:textSize="16sp"
+    android:layout_margin="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".JapaneseMainActivity"
+    android:padding="20dp"
+    android:background="@color/theme_bg_purple">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="日本語"
+        android:fontFamily="@font/pretendard_jp_regular"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_japanese_quiz_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="단어 → 뜻"
+        android:background="@drawable/shape_round_button_white"
+        android:textSize="16sp"
+        android:layout_margin="15dp"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_japanese_quiz_2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="뜻 → 단어"
+        android:background="@drawable/shape_round_button_white"
+        android:textSize="16sp"
+        android:layout_margin="15dp"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_japanese_all"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="모든 단어 보기"
+        android:background="@drawable/shape_round_button_white"
+        android:textSize="16sp"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>

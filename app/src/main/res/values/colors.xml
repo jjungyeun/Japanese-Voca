@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_purple">#E1AEFC</color>
+    <color name="theme_dark_purple">#422552</color>
+    <color name="theme_gray_purple">#B3A2BD</color>
+    <color name="theme_bg_purple">#DDD4E3</color>
+    <color name="theme_yellow">#FCF8AE</color>
+    <color name="theme_bg_yellow">#F3F1DB</color>
+    <color name="letter_black">#1D1D1D</color>
+    <color name="letter_gray">#4A4A4A</color>
+    <color name="light_gray">#C4C4C4</color>
+    <color name="white">#FFFFFF</color>
+</resources>
